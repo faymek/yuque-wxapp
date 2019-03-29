@@ -40,11 +40,9 @@ const requsetWithToken = async (param: Taro.request.Param<any> | string) => {
   }
 };
 
-const getUserDocs = ({
-  offset
-}: {
-offset: number;
-}): Promise<Taro.request.Promised<DocSerializer>> => {
+const getUserDocs = (
+  offset: number
+): Promise<Taro.request.Promised<DocSerializer>> => {
   return requsetWithToken(`user/docs?offset=${offset}`);
 };
 
