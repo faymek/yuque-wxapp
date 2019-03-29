@@ -34,7 +34,7 @@ const mapActionToProps = dispatch =>
   mapActionToProps
 )
 class Index extends Component<IProps, PageState> {
-  config: Config = { navigationBarTitleText: '语雀剪藏' };
+  config: Config = { navigationBarTitleText: '语雀阅读' };
 
   componentDidMount = () => {
     if (!this.props.user.userInfo) {
