@@ -1,16 +1,16 @@
 {
-  "miniprogramRoot": "dist/",
-  "projectname": "taro-react-mini-program",
-  "description": "",
-  "appid": "wx749ebde867ba7403",
-  "setting": {
-    "urlCheck": true,
-    "es6": false,
-    "postcss": false,
-    "minified": false,
-    "newFeature": true
-  },
-  "compileType": "miniprogram",
-  "libVersion": "2.3.0",
-  "condition": {}
+	"miniprogramRoot": "dist/",
+	"projectname": "yuque-wxapp",
+	"description": "",
+	"appid": "wxccea1d47325c230f",
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"postcss": false,
+		"minified": false,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.3.0",
+	"condition": {}
 }

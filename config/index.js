@@ -1,5 +1,5 @@
 const config = {
-  projectName: 'taro-react-mini-program',
+  projectName: 'yuque-wxapp',
   date: '2018-10-17',
   designWidth: 750,
   sourceRoot: 'src',
@@ -62,7 +62,7 @@ const config = {
   }
 };
 
-module.exports = function(merge) {
+module.exports = function (merge) {
   if (process.env.NODE_ENV === 'development') {
     return merge({}, config, require('./dev'));
   }
